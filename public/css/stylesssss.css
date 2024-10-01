@@ -1,0 +1,64 @@
+.navbar-brand {
+    font-family: Viga;
+    font-size: 32px;
+}
+
+/* Utility */
+.tombol {
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+
+/* jumbotron */
+.jumbotron {
+    background-image: url("../img/kucing1.png");
+    background-size: cover;
+    height: 640px;
+}
+
+/* Desktop Version */
+@media (min-width: 992px) {
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+
+    .nav-link:hover::after {
+        content: "";
+        display: block;
+        border-bottom: 3px solid #0b63dc;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+    /* .cover {
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 700px;
+        margin-left: 30%;
+        display: flex;
+        
+    } */
+
+    /* .tulisan1 {
+        width: 200px;
+        margin-left: 20px;
+    } */
+    .navbar {
+      position: static;
+    }
+
+    .hero-wrap {
+      background-repeat: no-repeat;
+      padding-left: 50%;
+      background-size: contain;
+      
+    }
+    /* .hero-wrap img {
+      display: flex;
+      background-size: contain;
+      margin-right: 100px;
+    } */
+}
